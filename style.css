@@ -84,16 +84,16 @@ p {
 kbd {
   font-family:
     'Courier New',
-    monospaced;
+    'monospaced';
   color: #0e3f5c;
 }
 
-code{
+code {
   display: inline-block;
   white-space: pre-wrap;
   color: #0e3f5c;
-  background-color: rgb(211,211,211, 0.8);
-  border: solid rgba(211,211,211);
+  background-color: rgb(211, 211, 211, 0.8);
+  border: solid rgba(211, 211, 211);
   padding: 0.5em 1em;
   font-weight: bold;
   font-size: 14px;
