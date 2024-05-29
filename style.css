@@ -1,44 +1,47 @@
 html {
   scroll-behavior: smooth;
 }
+
 body {
-    display: block;
-    font-family: 'Playfair Display', serif;
-    word-spacing: 3px;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-  }
+  display: block;
+  font-family: 'Playfair Display', serif;
+  word-spacing: 3px;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  font-weight: bold;
+  font-size: 32px; 
+  padding-top: 2em;
+}
   
-  header {
-    font-weight: bold;
-    font-size: 32px; 
-    padding-top: 2em;
-  }
-  
-  @media screen and (max-width: 600px) {
-    #navbar {
-      width: 5.5vw;
-    }
-    #navbar-title {
-      font: 16px;
-    }
-    .nav-link {
-      font: 14px;
-    }
+@media screen and (max-width: 600px) {
+  #navbar {
+    width: 5.5vw;
   }
 
-  #navbar {
-    position: fixed;
-    width: 15 vw;
-    height: 100%;
-    top: 0;
-    left: 0;
-    padding: 1em;
-    background: #8bcbc6;
-    margin-right: 2em;
-    line-height: 60px;
+  #navbar-title {
+    font: 16px;
   }
+
+  .nav-link {
+    font: 14px;
+  }
+}
+
+#navbar {
+  position: fixed;
+  width: 15 vw;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding: 1em;
+  background: #8bcbc6;
+  margin-right: 2em;
+  line-height: 60px;
+}
   
   #navbar-title {
     word-wrap: break-word;
